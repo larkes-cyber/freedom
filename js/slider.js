@@ -4,7 +4,7 @@ function Constructor(title,text,href){
     this.href = href;
 }
 const bookPortfolio={
-    'mobileLol':new Constructor(" So, I just don't know how to fit my mobile projects to this site(I'm not a cool web-designer). If you wanna see my mobile works then check my github please.","https://github.com/larkes-cyber"),
+    'mobileLol':new Constructor("Kinda mobile"," So, I just don't know how to fit my mobile projects to this site(I'm not a cool web-designer). If you wanna see my mobile works then check my github please.","https://github.com/larkes-cyber"),
     'marvel':new Constructor("Marvel service","This app was written with react-hooks and react-router-dom v.6.1.0 and i created my http-hook. I use Marvel api in this project. So this app show characters and comics where they are. And on the page, where characters are, there is 'random characters block' . There you can see some character.","https://larkes-cyber.github.io/marvel-service/"),
     'task':new Constructor("Task manager","It is my own project. This is task-manager by writing on react. There you can planning your goals on some days.You can see your statistics, how you completed goals and the main cool thing is that you can add your main goals for example: Buy new car and then you can check your progress to actions for this goal.","https://larkes-cyber.github.io/"),
     'fitness':new Constructor("Fitness site","This is a fitness website. It has seven modules: calculator, cards, form, modal, slider, tabs, timer and service file. This site has a webpackage module. So it is just a site where I practice some cool js things.","https://larkes-cyber.github.io/fitnessSite/"),
