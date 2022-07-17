@@ -1,0 +1,113 @@
+.backIce{
+    background:url('photoPortf/ice.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.backZaim{
+    background:url('photoPortf/zaim.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.backBit{
+    background: url('photoPortf/bitcoin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.backBall{
+    background:url('photoPortf/ball.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.DSI{
+    background:url('photoPortf/dsi.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.marvel{
+    background:url('photoPortf/marvel.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fitness{
+    background:url('photoPortf/fitness.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.task{
+    background:url('photoPortf/task.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mobileLol{
+    background:url('photoPortf/dude1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:576px){
+    .titlePosFix{
+        margin-left: 20%;
+    }
+    .logoTextNv{
+        font-size: 15px;
+    }
+    .hamb{
+        width: 14%;
+    }
+    .hambBox{
+        margin-left: 77%;
+        margin-top: -12%;
+    }
+    header{
+        background:none;
+    }
+}
+
+
+@media (min-width:768px) {
+    @media(max-width:998px){
+        .titlePosFix{
+            margin-left: 2%;
+        } 
+    }
+}
+@media (min-width:576px) {
+    @media(max-width:998px){
+        .titlePosFix{
+            margin-left: 12%;
+        } 
+       .lol{
+           overflow-x: hidden;
+       }
+       .textAbout{
+           position: relative;
+           z-index: 3;
+       }
+
+    }
+}
+@media(min-width:1000px){
+    .titlePosFix{
+        margin-left: 15%;
+      
+    } 
+   
+    
+}
+@media(min-width:576px){
+.hamb{
+    display:none;
+}
+}

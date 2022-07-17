@@ -1,0 +1,152 @@
+
+    .hideEl{
+        Animation-name:hideElem;
+        Animation-fill-mode:forwards;
+        Animation-duration:1s;
+        animation-timing-function:  ease-in;
+        opacity: 0;
+    }
+  @media (max-width:576px) {
+    .show{
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        Animation-duration:2s;
+        opacity: 0;
+    }
+  }
+  @media (min-width:576px) {
+    .show{
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        Animation-duration:1s;
+        opacity: 0;
+    }
+  } 
+    .aniText{
+        Animation-name:fronttext;
+        Animation-duration:1s;
+        Animation-fill-mode:forwards;
+    }
+    .butAni{
+        
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        Animation-duration:0.5s;
+
+        Animation-delay:1.0s;
+        opacity: 0;
+    }
+    .photoAni{
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        Animation-duration:1s;
+        opacity: 0;
+    }
+    header{
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        animation-timing-function:  ease-in;
+        Animation-duration:1s;
+        opacity: 0;
+    }
+    @keyframes hideElem {
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    @keyframes fronttext {
+        0%{
+            opacity: 0;
+            margin-left: -35%;
+        }
+        100%{
+           opacity: 1;
+            margin-left: -2%;
+        }
+    }
+    @keyframes btnShow{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+@media(min-width:756px){
+    .hideEl{
+        Animation-name:hideElem;
+        Animation-fill-mode:forwards;
+        Animation-duration:1s;
+        animation-timing-function:  ease-in;
+        opacity: 0;
+    }
+    .show{
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        Animation-duration:1s;
+        animation-timing-function:  ease-in;
+        opacity: 0;
+    }
+    .aniText{
+        Animation-name:fronttext;
+        Animation-duration:1s;
+        Animation-fill-mode:forwards;
+    }
+    .butAni{
+        
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        Animation-duration:0.5s;
+
+        Animation-delay:1.0s;
+        opacity: 0;
+    }
+    .photoAni{
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        Animation-duration:1s;
+        opacity: 0;
+    }
+    header{
+        Animation-name:btnShow;
+        Animation-fill-mode:forwards;
+        animation-timing-function:  ease-in;
+        Animation-duration:1s;
+        opacity: 0;
+    }
+    @keyframes hideElem {
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    @keyframes fronttext {
+        0%{
+            opacity: 0;
+            margin-left: -35%;
+        }
+        100%{
+           opacity: 1;
+            margin-left: -2%;
+        }
+    }
+    @keyframes btnShow{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+@media(min-width:576px){
+    .show{
+        Animation-duration:1.5s;
+    }
+}
